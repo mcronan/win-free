@@ -1,0 +1,12 @@
+h2, h3 {
+	text-align: center;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.spacer {
+	margin-bottom: 130px;
+}

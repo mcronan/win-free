@@ -7,7 +7,7 @@ import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router
 @Component({
     selector: 'my-app',
     template: `
-	    <h1>{{title}}</h1>
+	    <a [routerLink]="['Landing']"><h1>{{title}}</h1></a>
   		<router-outlet></router-outlet>
   		`,
     directives: [ROUTER_DIRECTIVES]

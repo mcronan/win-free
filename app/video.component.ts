@@ -14,19 +14,30 @@ import { ExitComponent } from './exit.component';
 
 
 export class VideoComponent implements OnInit {
+	// creates the private instance of router
 	constructor(private router: Router) {
- 		router.navigate(['Exit'])
- 				}
- 	
-	ngOnInit() {
-		window.setTimeout(this.exitVideo, 5000)
+		// set timer to redirect after 8 seconds
+		setTimeout(() => {
+			router.navigate(['Exit'])}, 8000);
+		}
 	}
 
-		exitVideo() {
-		 	console.log("the console")
-			}	
+
+
+ 	// 	ngOnInit() {
+		// 	window.setTimeout(this.exitVideo, 3000)
+		// }
+		//   	exitVideo() {
+		//  		console.log("the console")
+		// 	}	
 		
-}
+
+		// constructor(private router: Router) {
+		// 	router.navigate(['Exit'])
+		//  }
+
+	
+
 
 
 	// constructor(private router: Router) {
