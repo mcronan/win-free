@@ -3,13 +3,13 @@ import { Router } from 'angular2/router';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
 
 @Component({ 
-	selector: 'my-landing',
-	templateUrl: 'app/landing.component.html',
-	styleUrls: ['app/landing.component.css'],
+	selector: 'my-exit',
+	templateUrl: 'app/exit.component.html',
+	styleUrls: ['app/exit.component.css'],
 	directives: [ROUTER_DIRECTIVES]
 })
 
 
-export class LandingComponent {
+export class ExitComponent {
 	
 }
